@@ -33,3 +33,7 @@ export default function App() {
     </Router>
   );
 }
+if (module.hot) {
+  module.hot.accept();
+}
+
