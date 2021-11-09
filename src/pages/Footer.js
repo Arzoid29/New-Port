@@ -6,7 +6,7 @@ export default function Footer() {
         <><footer class="flex justify-center px-4 text-gray-100 bg-gray-800 mt-60">
         <div class="container py-6">
             <h1 class="text-center text-lg font-bold lg:text-2xl">
-                Thanks for read, if you need something here is mi git and twitter
+                Thanks for read, if you need something here is my git and twitter
             </h1>
 
             <div class="flex justify-center mt-6">
