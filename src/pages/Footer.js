@@ -3,30 +3,30 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <><footer class="flex justify-center px-4 text-gray-100 bg-gray-800 mt-60">
-        <div class="container py-6">
-            <h1 class="text-center text-lg font-bold lg:text-2xl">
+        <><footer className="flex justify-center px-4 text-gray-100 bg-gray-800 mt-60">
+        <div className="container py-6">
+            <h1 className="text-center text-lg font-bold lg:text-2xl">
                 Thanks for read, if you need something here is my git and twitter
             </h1>
 
-            <div class="flex justify-center mt-6">
-                <div class="bg-white rounded-lg">
+            <div className="flex justify-center mt-6">
+                <div className="bg-white rounded-lg">
                 </div>
             </div>
 
-            <hr class="h-px mt-6 bg-gray-700 border-none"></hr>
+            <hr className="h-px mt-6 bg-gray-700 border-none"></hr>
 
-            <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
+            <div className="flex flex-col items-center justify-between mt-6 md:flex-row">
                 <div>
-                    <p class="text-xl font-bold">Arzoid</p>
+                    <p className="text-xl font-bold hover:bg-indigo-50 rounded-lg hover:text-blue-600">Arzoid</p>
                 </div>
-                <div class="flex mt-4 md:m-0">
-                    <div class="-mx-4">
-                      <a href="/#Home" class="px-4 text-sm hover:text-blue-600 ">Home</a>
-                      <a href="/resume" class="px-4 text-sm hover:text-blue-600 ">Resume</a>
-                      <a href="/education" class="px-4 text-sm hover:text-blue-600 ">Education</a>
-                      <a href="https://github.com/Arzoid29" class=" hover:text-blue-600 px-4 text-sm">Git</a>
-                      <a href="https://twitter.com/Arzoidss" class=" hover:text-blue-600 px-4 text-sm">Twitter</a>
+                <div className="flex mt-4 md:m-0">
+                    <div className="-mx-4">
+                      <a href="/#Home" className="px-4 text-sm hover:text-blue-600 hover:bg-indigo-50 rounded-full ">Home</a>
+                      <a href="/resume" className="px-4 text-sm hover:text-blue-600 hover:bg-indigo-50 rounded-full ">Resume</a>
+                      <a href="/education" className="px-4 text-sm hover:text-blue-600 hover:bg-indigo-50 rounded-full ">Education</a>
+                      <a href="https://github.com/Arzoid29" className=" hover:text-blue-600 px-4 text-sm hover:bg-indigo-50 rounded-full">Git</a>
+                      <a href="https://twitter.com/Arzoidss" className=" hover:text-blue-600 hover:bg-indigo-50 rounded-full px-4 text-sm">Twitter</a>
                   	</div>
                 </div>
             </div>
