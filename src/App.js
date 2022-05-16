@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "./components/Navbar";
-import Education from "./pages/Education";
-import Footer from "./pages/Footer";
-import Home from "./pages/Home";
-import Resume from "./pages/Resume";
-import Projects from "./pages/Projects";
+import NavBar from "./components/Navbar.js";
+import Education from "./pages/Education.js";
+import Footer from "./pages/Footer.js";
+import Home from "./pages/Home.js";
+import Resume from "./pages/Resume.js";
+import Projects from "./pages/Projects.js";
 import {
   BrowserRouter as Router,
   Switch,
