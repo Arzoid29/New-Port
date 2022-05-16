@@ -1,7 +1,7 @@
 
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon,} from "@heroicons/react/outline";
-import Git from "./git";
+import Git from "./Git";
 import Twitter from "./Twitter";
 import { useHistory } from "react-router-dom";
 
@@ -21,6 +21,7 @@ export default function NavBar() {
     { name: "About me", href: "/", current: false },
     { name: "Resume", href: "/resume", current: false },
     { name: "Education" , href: "/education", current: false, icon: <AcademicCapIcon className='h-10 '/>, },
+    { name: "Projects", href: "/projects", current: false },
 
   ]
   return (

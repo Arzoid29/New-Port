@@ -1,10 +1,10 @@
 import React from "react";
 import NavBar from "./components/Navbar";
-import Education from "./pages/education";
+import Education from "./pages/Education";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
-
+import Projects from "./pages/Projects";
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +26,9 @@ export default function App() {
           </Route>
           <Route path="/resume" exact>
             <Resume></Resume>
+          </Route>
+          <Route path="/projects" exact>
+            <Projects></Projects>
           </Route>
 
         </Switch>
