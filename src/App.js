@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./components/Navbar.js";
-import Education from "./pages/Education.js";
+import Education from "./pages/education.js";
 import Footer from "./pages/Footer.js";
 import Home from "./pages/Home.js";
 import Resume from "./pages/Resume.js";
