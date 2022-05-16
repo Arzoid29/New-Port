@@ -1,7 +1,7 @@
 import { AcademicCapIcon} from '@heroicons/react/outline';
 
 
-export default function PerfilSection() {
+export default function Education() {
    return (
       <section id="education">
       <div className="bg-gray-200 shadow-2xl overflow-hidden sm:rounded-3xl max-w-3xl  mx-auto  mt-14 flex ">
