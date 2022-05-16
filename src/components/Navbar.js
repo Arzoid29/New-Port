@@ -1,8 +1,6 @@
 
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon,} from "@heroicons/react/outline";
-import Git from "./Git";
-import Twitter from "./Twitter";
 import { useHistory } from "react-router-dom";
 
 import { AcademicCapIcon } from "@heroicons/react/outline";
